@@ -1,0 +1,326 @@
+{
+    "pageId": "dynamic-seo",
+    "pageName": "Dynamic SEO Page",
+    "pageType": null,
+    "layoutEnabled": true,
+    "moduleCategories": [
+      "header",
+      "images",
+      "text",
+      "search",
+      "categories_products",
+      "forms",
+      "navigation",
+      "footer",
+      "search_page"
+    ],
+    "VFSPath": "layouts/dynamic-seo.json",
+    "requiredModules": [
+      "search_filters",
+      "search_listing"
+    ],
+    "scripts": "",
+    "sections": [
+      {
+        "sectionId": "section_1",
+        "htmlId": "",
+        "htmlClasses": "",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_2",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_3",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "left",
+                "modules": [
+                  {
+                    "moduleId": "module_4",
+                    "moduleType": "page_subheader",
+                    "title": "Page Header",
+                    "options": {
+                      "show_change_vehicle": {
+                        "name": "Show Change Vehicle",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": null
+                      },
+                      "show_breadcrumbs": {
+                        "name": "Show Breadcrumbs",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": null
+                      },
+                      "show_title": {
+                        "name": "Show Title",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": null
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 12,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rowId": "row_1",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_4",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_1",
+                    "moduleType": "custom_html",
+                    "title": "Custom HTML",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": ""
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rowId": "row_3",
+            "rowLayout": "3_9",
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_2",
+                "columnWidth": 3,
+                "htmlId": "",
+                "htmlClasses": "stickyFilters",
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_5",
+                    "moduleType": "search_filters",
+                    "title": "Search Filters",
+                    "options": {
+                      "display_vehicle_filters": {
+                        "name": "Display Vehicle Filters",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "display_facet_filters": {
+                        "name": "Display Facet Filters",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      },
+                      "display_category_tree": {
+                        "name": "Display Category Tree",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 12,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_7",
+                    "moduleType": "custom_html",
+                    "title": "Radio Container",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div id=\"radioContainer\"></div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_2",
+                    "moduleType": "search_facets",
+                    "title": "Faceted Search",
+                    "options": {
+                      "show_category_tree": {
+                        "name": "Show Category Tree",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_8",
+                    "moduleType": "search_filters",
+                    "title": "Search Filters",
+                    "options": {
+                      "display_vehicle_filters": {
+                        "name": "Display Vehicle Filters",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": false
+                      },
+                      "display_facet_filters": {
+                        "name": "Display Facet Filters",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": true
+                      },
+                      "display_category_tree": {
+                        "name": "Display Category Tree",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "themeFilterFacet",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_12",
+                    "moduleType": "custom_html",
+                    "title": "Theme Clone Category",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"themeCloneCatWrap\">\n    <h3>Filter By Category</h3>\n    <div id=\"themeCloneCategoryId\"></div>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              },
+              {
+                "columnId": "column_5",
+                "columnWidth": 9,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_6",
+                    "moduleType": "search_listing",
+                    "title": "Search Page",
+                    "options": {
+                      "hide_on_empty": {
+                        "name": "Hide on Empty?",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      },
+                      "display_msrp": {
+                        "name": "Display MSRP",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "msrp_custom_label": {
+                        "name": "MSRP Display Text",
+                        "type": "string",
+                        "default_value": null,
+                        "value": "",
+                        "placeholder": "MSRP"
+                      },
+                      "no_results_message": {
+                        "name": "No Results Message",
+                        "type": "html_content",
+                        "default_value": "<p>No results found{?search_str} for <strong></strong><strong>{search_str}</strong>{/search_str}. Here are some helpful search tips: <br></p><ul><li>Search by a part name. Example:&nbsp;water pump.</li><li>Be less specific. Example:&nbsp;brake&nbsp;instead of&nbsp;ceramic brake.</li><li>Remove information such as make, year or model.</li><li>Can't find the part you are looking for? Contact us and&nbsp;we'll find it for you!</li></ul><p><br></p>",
+                        "value": "<div class=\"no-parts-image-container\">\n\t<div class=\"header\">No Parts Found</div>\n\t<a class=\"new-vehicle-link\" href=\"javascript:openVehiclePicker();\">Search for Another Vehicle</a>\n\t<div class=\"body\">Or try a Keyword Search in the search bar above</div>\n</div>"
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 12,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
