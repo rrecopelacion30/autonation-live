@@ -1,0 +1,583 @@
+{
+    "pageId": "homepage",
+    "pageName": "Home Page",
+    "pageType": null,
+    "layoutEnabled": true,
+    "moduleCategories": [
+      "header",
+      "images",
+      "text",
+      "search",
+      "categories_products",
+      "forms",
+      "navigation",
+      "footer"
+    ],
+    "VFSPath": "layouts/homepage.json",
+    "requiredModules": [
+      "featured_products"
+    ],
+    "scripts": "",
+    "sections": [
+      {
+        "sectionId": "section_5",
+        "htmlId": "",
+        "htmlClasses": "d-none",
+        "contentWidth": "normal",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_6",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_7",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_8",
+                    "moduleType": "featured_products",
+                    "title": "Featured Products",
+                    "options": {
+                      "display_as_slider": {
+                        "name": "Display As slider",
+                        "caption": "Displays featured products in a slider format",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_30",
+        "htmlId": "",
+        "htmlClasses": "main_hero mainVChev new_container",
+        "contentWidth": "full",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_31",
+            "rowLayout": 12,
+            "htmlId": "",
+            "htmlClasses": "",
+            "columns": [
+              {
+                "columnId": "column_32",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_33",
+                    "moduleType": "custom_html",
+                    "title": "Main Hero Chevrolet",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div id=\"main--slider02\">\n    <div class=\"main--slider-item\">\n        <div class=\"main--slider-bg\">\n            <img fetchpriority=\"high\" alt=\"AutoNation Chevorlet Banner\" src=\"https://rparts-sites.s3.amazonaws.com/9ff012834137a1eb542307c0418b68eb/design/gm_banner.webp\">\n        </div>\n        <div class=\"main--slider-wrapper\">\n            <div class=\"main--slider-content\">\n                <div class=\"main--slider-content-wrapper\">\n                    <h1 class=\"main--slider-title\">GENUINE AND AFTERMARKET Chevrolet  PARTS & ACCESSORIES</h1>\n                    <p class=\"main--slider-text\">\n                        We provide a wide range of high-quality parts, suitable for all needs and preferences, whether you seek manufacturer-specific parts or cost-effective aftermarket alternatives\n                    </p>\n                    <a href=\"javascript:openVehiclePicker();\">Find Parts</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_12",
+        "htmlId": "",
+        "htmlClasses": "themeNewValuePropSection",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_13",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_14",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_15",
+                    "moduleType": "custom_html",
+                    "title": "New Value Props",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"themeNewValuePropWrap\">\n    <ul class=\"themeNewValuePropList\">\n        <li>\n            <div class=\"themeValuePropCard\">\n                <div class=\"themeValuePropImg\"></div>\n                <div class=\"themeValuePropContent\"></div>\n            </div>\n        </li>\n        <li>\n            <div class=\"themeValuePropCard\">\n                <div class=\"themeValuePropImg\"></div>\n                <div class=\"themeValuePropContent\"></div>\n            </div>\n        </li>\n        <li>\n            <div class=\"themeValuePropCard\">\n                <div class=\"themeValuePropImg\"></div>\n                <div class=\"themeValuePropContent\"></div>\n            </div>\n        </li>\n        <li>\n            <div class=\"themeValuePropCard\">\n                <div class=\"themeValuePropImg\"></div>\n                <div class=\"themeValuePropContent\"></div>\n            </div>\n        </li>\n    </ul>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_37",
+        "htmlId": "",
+        "htmlClasses": "themeCertifiedToyota mainVChev",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_38",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_39",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_40",
+                    "moduleType": "custom_html",
+                    "title": "Find Certified Chevrolet",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"themeCertifiedWrap\">\n    <h2 class=\"main_title\">Shop Chevrolet Parts and Accessories by Model</h2>\n    <ul class=\"themeCertifiedList owl-carousel owl-theme\">\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'avalanche-blazer',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/Avalanche.webp\">\n                <p>Avalanche Blazer</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'bolt-euv',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/bold_euv.webp\">\n                <p>Bolt EUV</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'bolt-ev',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/bold_ev.webp\">\n                <p>Bolt EV</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'camaro',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/camaro.webp\">\n                <p>Camaro</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'colorado',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/colorado.webp\">\n                <p>Colorado</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'corvette',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/corvette.webp\">\n                <p>Corvette</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'equinox',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/equinox.webp\">\n                <p>Equinox</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'malibu',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/malibu.webp\">\n                <p>Malibu</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20's10',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/s10.webp\">\n                <p>S10</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'silverado-1500',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/solverado_1500.webp\">\n                <p>Silverado 1500</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'silverado-1500-classic',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/solverado_1500_classic.webp\">\n                <p>Silverado 1500 Classic</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'silverado-2500',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/solverado_1500.webp\">\n                <p>Silverado 2500</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'silverado-3500',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/silverado_3500.webp\">\n                <p>Silverado 3500</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'silverado-ev',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/silverado_ev.webp\">\n                <p>Silverado EV</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'sonic',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/sonic.webp\">\n                <p>Sonic</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'spark',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/44996de5516b4b8d20ae7ae4e46ca833/design/noimage.png\">\n                <p>Spark</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'spark-ev',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/spark_ev.webp\">\n                <p>Spark EV</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'suburban',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/suburban.webp\">\n                <p>Suburban</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'tahoe',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/tahoe.webp\">\n                <p>Tahoe</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"javascript:%20openVehiclePickerRedirect('chevrolet',%20'trailblazer',%20null,%20null,%20null,%20null);\">\n                <img alt=\"AutoNation Parts chevrolet\" src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/trailblazer.webp\">\n                <p>Trailblazer</p>\n            </a>\n        </li>\n    </ul>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_19",
+        "htmlId": "",
+        "htmlClasses": "category_section mainVBmw padding_section",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_20",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_21",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_22",
+                    "moduleType": "custom_html",
+                    "title": "Tab Category List Chevrolet",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"theme_cat_tab_wrapper\">\n    <h2 class=\"main_title\">Explore Popular Chevrolet Parts & Accessory Categories</h2>\n    <ul class=\"theme_cat_tab_list\">\n        <li class=\"theme_cat_tab_item\">\n            <a href=\"#\" class=\"theme_cat_tab_link\" data-toggle-target=\".tab_content_replacement\">Replacement Parts</a>\n        </li>\n        <li class=\"theme_cat_tab_item\">\n            <a href=\"#\" class=\"theme_cat_tab_link\" data-toggle-target=\".tab_content_maintenance\">Maintenance Parts</a>\n        </li>\n        <li class=\"theme_cat_tab_item\">\n            <a href=\"#\" class=\"theme_cat_tab_link\" data-toggle-target=\".tab_content_acc\">Accessories</a>\n        </li>\n        <li class=\"theme_cat_tab_item\">\n            <a href=\"#\" class=\"theme_cat_tab_link\" data-toggle-target=\".tab_content_body\">Body Parts</a>\n        </li>\n    </ul>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_23",
+                    "moduleType": "custom_html",
+                    "title": "Replacement Content",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"theme_cat_tab_content\">\n    <ul class=\"theme_cat_tab_content_list\">\n        <li>\n            <a href=\"part-categories/ac-and-heating/ac-and-heater-controls\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/ac.webp\" alt=\"AutoNation National Store\">\n                </div>\n                <p>A/C & Heating</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/electrical/alternators\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/alternators.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Alternators</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/brakes\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/brakes.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Brakes</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/electrical/ignition\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/ignition.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Ignition</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/lighting\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/lighting.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Lighting</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/cooling-systems/radiators\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/radiator.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Radiators</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"https://www.autonationparts.com/search?search_str=fuel+cap\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://rparts-sites.s3.amazonaws.com/c926dd0cab2e57d296e2c1073454d050/design/fuel-caps.png\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Fuel Caps</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/suspension/shocks-struts\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/suspension-parts.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Suspension</p>\n            </a>\n        </li>\n    </ul>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "tab_content tab_content_replacement",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_24",
+                    "moduleType": "custom_html",
+                    "title": "Maintenance Content",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"theme_cat_tab_content\">\n    <ul class=\"theme_cat_tab_content_list\">\n        <li>\n            <a href=\"part-categories/filters/air-filters\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/car-air-filter.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Air Filter</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/belts-and-hoses\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/belts-hoses.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Belts & Hoses</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/filters/air-filters\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/cabin-air-filter.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Cabin Air Filter</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/filters/fuel-filters\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/fuel-filter.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Fuel Filter</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/filters/oil-filters\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/oil-filter.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Oil Filter</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/electrical/spark-plugs\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/spark-plugs.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Spark Plugs</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/cooling-systems/thermostats-and-parts\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/thermostat.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Thermostat</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/windshield-wiper-systems\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/wiper-blades.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Wiper Blades</p>\n            </a>\n        </li>\n    </ul>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "tab_content tab_content_maintenance",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_25",
+                    "moduleType": "custom_html",
+                    "title": "Accessories Content",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"theme_cat_tab_content\">\n    <ul class=\"theme_cat_tab_content_list\">\n        <li>\n            <a href=\"accessories/interior-accessories/cargo-trays\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/cargo-trays.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Cargo Trays</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/exterior-accessories/nerf-bars-and-running-boards\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/door-sills.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Door Sills</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/electrical/remote-start\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/entertainment.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Key Fobs</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/interior-accessories/floor-mats\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/floor-mats.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Floor Mats</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/exterior-accessories/car-covers\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/car-cover.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Car Covers</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/exterior-accessories/roof-racks\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/roof-rack.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Roof Racks</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/exterior-accessories/step-rails\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/step-rails.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Step Rails</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/exterior-accessories/wind-deflectors\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://d354nuoz4t18d4.cloudfront.net/c926dd0cab2e57d296e2c1073454d050/design/img/wind-deflectors.webp\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Wind Deflectors</p>\n            </a>\n        </li>\n    </ul>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "tab_content tab_content_acc",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_26",
+                    "moduleType": "custom_html",
+                    "title": "Body Parts Content",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"theme_cat_tab_content\">\n    <ul class=\"theme_cat_tab_content_list\">\n        <li>\n            <a href=\"accessories/exterior-accessories/bumpers-and-parts\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://rparts-sites.s3.amazonaws.com/c926dd0cab2e57d296e2c1073454d050/design/meganav/2nd/ext/bumpers.jpg\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Bumper</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/body/fenders\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://rparts-sites.s3.amazonaws.com/c926dd0cab2e57d296e2c1073454d050/design/meganav/2nd/ext/fender.jpg\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Fenders</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/exterior-accessories/grilles\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://rparts-sites.s3.amazonaws.com/c926dd0cab2e57d296e2c1073454d050/design/meganav/2nd/ext/grille.png\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Grilles</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/exterior-accessories/hoods\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://rparts-sites.s3.amazonaws.com/c926dd0cab2e57d296e2c1073454d050/design/meganav/2nd/ext/hood.jpg\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Hoods</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/exterior-accessories/mirrors\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://rparts-sites.s3.amazonaws.com/c926dd0cab2e57d296e2c1073454d050/design/meganav/2nd/ext/mirror.jpg\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Mirrors</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/exterior-accessories/mouldings-trim\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://rparts-sites.s3.amazonaws.com/c926dd0cab2e57d296e2c1073454d050/design/meganav/2nd/ext/moulding.jpg\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Mouldings</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"part-categories/towing/tailgates-and-liftgates\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://rparts-sites.s3.amazonaws.com/c926dd0cab2e57d296e2c1073454d050/design/meganav/2nd/ext/tailgate.jpg\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Tail Gates</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"accessories/exterior-accessories/wind-deflectors\">\n                <div class=\"theme_cat_tab_content_img\">\n                    <img src=\"https://rparts-sites.s3.amazonaws.com/c926dd0cab2e57d296e2c1073454d050/design/meganav/2nd/ext/trunk-lid.jpg\" alt=\"AutoNation National Store\" loading=\"lazy\">\n                </div>\n                <p>Wind Deflectors</p>\n            </a>\n        </li>\n    </ul>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "tab_content tab_content_body",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_27",
+        "htmlId": "",
+        "htmlClasses": "themeShippingSign",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_28",
+            "rowLayout": 12,
+            "htmlId": "",
+            "htmlClasses": "themeEmailDeals",
+            "columns": [
+              {
+                "columnId": "column_29",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_30",
+                    "moduleType": "custom_html",
+                    "title": "Email Deals Default",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"themeEmailDealsWrap\">\n    <h3>Want<br>Extra Savings?</h3>\n    <p>Be the first to receive exclusive offers, product<br> recommendations, vehicle maintenance tips and more!</p>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_31",
+                    "moduleType": "custom_html",
+                    "title": "Subsscribe Form",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"newFormSubs\">\n    <form class=\"js-cm-form\" id=\"subForm\" action=\"https://www.createsend.com/t/subscribeerror?description=\" method=\"post\" data-id=\"A61C50BEC994754B1D79C5819EC1255CC39ACBF7E07B0DFA929F9D69374C4EA7DA634E4D298A8598CD1C3EB5ABBA3F962DBC56E2C9458F47CD32A80B7CD8A3F6\">\n        <div class=\"newFormSubsCol\">\n            <input autocomplete=\"Email\" aria-label=\"Email\" class=\"js-cm-email-input qa-input-email\" id=\"fieldEmail\" maxlength=\"200\" name=\"cm-tyqujh-tyqujh\" required=\"\" type=\"email\" placeholder=\"Enter your email address\">\n            <button type=\"submit\">Sign Up</button>\n        </div>\n    </form>\n</div>\n<script type=\"text/javascript\" src=\"https://js.createsend1.com/javascript/copypastesubscribeformlogic.js\"></script>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_53",
+        "htmlId": "",
+        "htmlClasses": "themeTRDSection mainVChev",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_54",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_55",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_56",
+                    "moduleType": "custom_html",
+                    "title": "Chevrolet Parts & Accessories",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"themeTRDWrap\">\n    <div class=\"themeTRDCol\">\n        <div class=\"themeTRDContent\">\n            <h3>Enhance Performance with Chevrolet Accessories</h3>\n            <p>\n                Elevate your Chevy with accessories designed for both style and performance. From bold exterior upgrades like grilles and spoilers to interior enhancements such as floor mats and infotainment systems, each item crafted to fit your year and model.\n            </p>\n            <div class=\"themeTRDbutton\">\n                <a href=\"/accessories/\">Shop Chevrolet Accessories </a>\n            </div>\n        </div>\n    </div>\n    <div class=\"themeTRDCol\">\n        <div class=\"themeTRDimg\">\n            <img src=\"https://rparts-sites.s3.amazonaws.com/cd050b353c956249161557974d86d740/design/vpicker/chevrolet/acc-ban.webp\" alt=\"AutoNation TRD\">\n        </div>\n    </div>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_59",
+        "htmlId": "",
+        "htmlClasses": "themeToyotaBanner mainVChev",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_60",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_61",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_62",
+                    "moduleType": "custom_html",
+                    "title": "Chevrolet Parts Banner",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<div class=\"themeToyotaBannerWrap\">\n    <div class=\"themeToyotaContent\">\n        <h3>Shop Chevrolet Parts and Accessories from AutoNation Parts</h3>\n        <p>\n            It’s important to maintain your Chevrolet with genuine parts to ensure optimal performance and longevity. At AutoNation Parts, we carry a comprehensive range of genuine Chevrolet components designed to meet the highest standards, providing both reliability and peace of mind for every journey.\n        </p>\n    </div>\n</div>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
